@@ -37,7 +37,7 @@ export default function App() {
               <p className="text-sm text-[#4a4847]">Hands-on guidance in your space. Includes follow-up notes and recommendations.</p>
             </div>
             <div>
-              <h3 className="text-xl font-medium">Room Design Package – Starting at $600</h3>
+              <h3 className="text-xl font-medium">Room Design Package – Starting at $500</h3>
               <p className="text-sm text-[#4a4847]">A complete plan for one room including layout, mood board, product links, and setup guide.</p>
             </div>
           </div>
