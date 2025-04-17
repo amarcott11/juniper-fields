@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import portfolio1 from "./assets/patio1.jpg";
-import portfolio2 from "./assets/patio2.jpg";
-import portfolio3 from "./assets/patio3.jpg";
+import portfolio1 from "./assets/patio1.JPG";
+import portfolio2 from "./assets/patio2.JPG";
+import portfolio3 from "./assets/patio3.JPG";
 import logo from "./assets/logo.png";
 
 export default function App() {
