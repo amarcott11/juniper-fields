@@ -9,36 +9,36 @@ export default function App() {
   }, []);
 
   return (
-    <main className="max-w-3xl mx-auto p-6 font-sans text-gray-800">
+    <main className="max-w-4xl mx-auto p-4 sm:p-6 md:p-10 font-sans text-gray-800">
       <header className="mb-10 text-center">
-        <h1 className="text-4xl font-bold mb-2">Juniper Fields Interiors</h1>
-        <p className="text-lg">Interior Design | Home Goods | Paper Goods</p>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">Juniper Fields Interiors</h1>
+        <p className="text-base sm:text-lg md:text-xl">Interior Design | Home Goods | Paper Goods</p>
       </header>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Our Services</h2>
-        <ul className="space-y-4">
+        <h2 className="text-xl sm:text-2xl font-semibold mb-4">Our Services</h2>
+        <ul className="space-y-6">
           <li>
-            <h3 className="text-xl font-medium">Initial Virtual Consultation – Free (30 Minutes)</h3>
-            <p>A one-time introductory session to learn about your space, goals, and style.</p>
+            <h3 className="text-lg sm:text-xl font-medium">Initial Virtual Consultation – Free (30 Minutes)</h3>
+            <p className="text-sm sm:text-base">A one-time introductory session to learn about your space, goals, and style.</p>
           </li>
           <li>
-            <h3 className="text-xl font-medium">Virtual Consultation – $75/hour</h3>
-            <p>Flexible hourly support for design questions, layout advice, product sourcing, and more.</p>
+            <h3 className="text-lg sm:text-xl font-medium">Virtual Consultation – $75/hour</h3>
+            <p className="text-sm sm:text-base">Flexible hourly support for design questions, layout advice, product sourcing, and more.</p>
           </li>
           <li>
-            <h3 className="text-xl font-medium">In-Person Consultation – $150/hour (+ travel fees)</h3>
-            <p>Hands-on guidance in your space. Includes follow-up notes and recommendations.</p>
+            <h3 className="text-lg sm:text-xl font-medium">In-Person Consultation – $150/hour (+ travel fees)</h3>
+            <p className="text-sm sm:text-base">Hands-on guidance in your space. Includes follow-up notes and recommendations.</p>
           </li>
           <li>
-            <h3 className="text-xl font-medium">Room Design Package – Starting at $600</h3>
-            <p>A complete plan for one room including layout, mood board, product links, and setup guide.</p>
+            <h3 className="text-lg sm:text-xl font-medium">Room Design Package – Starting at $600</h3>
+            <p className="text-sm sm:text-base">A complete plan for one room including layout, mood board, product links, and setup guide.</p>
           </li>
         </ul>
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Book a Consultation</h2>
+        <h2 className="text-xl sm:text-2xl font-semibold mb-4">Book a Consultation</h2>
         <div
           className="calendly-inline-widget"
           data-url="https://calendly.com/hello-juniperfieldsco"
@@ -47,8 +47,8 @@ export default function App() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Visit Our Etsy Shop</h2>
-        <p className="mb-4">
+        <h2 className="text-xl sm:text-2xl font-semibold mb-4">Visit Our Etsy Shop</h2>
+        <p className="mb-4 text-sm sm:text-base">
           Explore our curated paper goods and handmade creations at Storybound by Juniper Fields.
         </p>
         <a
@@ -61,7 +61,7 @@ export default function App() {
         </a>
       </section>
 
-      <footer className="text-center text-sm text-gray-500 mt-10">
+      <footer className="text-center text-xs sm:text-sm text-gray-500 mt-10">
         &copy; {new Date().getFullYear()} Juniper Fields Interiors. All rights reserved.
       </footer>
     </main>
