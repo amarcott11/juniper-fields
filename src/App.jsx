@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import portfolio1 from "./assets/patio1.jpg";
-import portfolio2 from "./assets/patio2.jpg";
-import portfolio3 from "./assets/patio3.jpg";
-import logo from "./assets/logo.png";
+//import portfolio1 from "./assets/patio1.jpg";
+//import portfolio2 from "./assets/patio2.jpg";
+//import portfolio3 from "./assets/patio3.jpg";
+//import logo from "./assets/logo.png";
 
 export default function App() {
   useEffect(() => {
