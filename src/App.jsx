@@ -69,11 +69,6 @@ export default function App() {
 
         <section>
           <h2 className="text-2xl font-semibold mb-6 border-b border-[#ccc8c1] pb-2">Portfolio</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            <img src={portfolio1} alt="Portfolio Example 1" className="rounded shadow-md" />
-            <img src={portfolio2} alt="Portfolio Example 2" className="rounded shadow-md" />
-            <img src={portfolio3} alt="Portfolio Example 3" className="rounded shadow-md" />
-          </div>
         </section>
       </main>
 
