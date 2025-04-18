@@ -15,7 +15,6 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#f8f5f1] text-[#2e2b29] font-serif">
       <header className="text-center py-10 border-b border-[#d8d3cb] bg-white">
-        <img src={logo} alt="Juniper Fields Logo" className="mx-auto h-20 w-auto mb-4" />
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2">Juniper Fields Interiors</h1>
         <p className="text-lg sm:text-xl italic text-[#5e5a57]">Designing spaces with story, soul, and subtle charm</p>
       </header>
