@@ -68,6 +68,9 @@ export default function App() {
 
         <section>
           <h2 className="text-2xl font-semibold mb-6 border-b border-[#ccc8c1] pb-2">Portfolio</h2>
+          <div className="text-[#4a4847] italic">
+            Our latest projects will appear here soon. In the meantime, follow us on Instagram @juniperfieldsco.
+          </div>
         </section>
       </main>
 
