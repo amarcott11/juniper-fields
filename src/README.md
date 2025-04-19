@@ -1,10 +1,7 @@
+
 import { useEffect } from "react";
-//import portfolio1 from "./assets/patio1.jpg";
-//import portfolio2 from "./assets/patio2.jpg";
-//import portfolio3 from "./assets/patio3.jpg";
-//import logo from "./assets/logo.png";
-import logo from './assets/jf_logo.png'; // adjust filename if needed
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import logo from "./assets/logo.png";
 
 export default function App() {
   useEffect(() => {
@@ -17,16 +14,13 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#f8f5f1] text-[#2e2b29] font-serif">
       <header className="text-center py-10 border-b border-[#d8d3cb] bg-white">
-      <a href="/">
-        <img
-          src={logo}
-          alt="Juniper Fields logo"
-          className="mx-auto h-60 w-auto mb-4"
-        />
-      </a>
+        <img src={logo} alt="Juniper Fields logo" className="mx-auto h-20 w-auto mb-4" />
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2">Juniper Fields Interiors</h1>
+        <p className="text-lg sm:text-xl italic text-[#5e5a57]">Designing spaces with story, soul, and subtle charm</p>
       </header>
 
       <main className="max-w-5xl mx-auto px-6 py-12 space-y-16">
+
         <section>
           <h2 className="text-2xl font-semibold mb-6 border-b border-[#ccc8c1] pb-2">Our Services</h2>
           <div className="grid gap-8">
@@ -98,10 +92,9 @@ export default function App() {
 
         <section>
           <h2 className="text-2xl font-semibold mb-6 border-b border-[#ccc8c1] pb-2">Portfolio</h2>
-          <div className="text-[#4a4847] italic">
-            Our latest projects will appear here soon. In the meantime, follow us on Instagram @juniperfieldsco.
-          </div>
+          <p className="text-[#4a4847] italic">Our latest projects will appear here soon. Follow us on Instagram @juniperfieldsco.</p>
         </section>
+
       </main>
 
       <footer className="text-center text-xs text-[#857f79] py-8 border-t border-[#d8d3cb]">
