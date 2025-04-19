@@ -20,7 +20,7 @@ export default function App() {
         <img
           src={logo}
           alt="Juniper Fields logo"
-          className="mx-auto h-20 w-auto mb-4"
+          className="mx-auto h-60 w-auto mb-4"
         />
       </a>
       </header>
