@@ -3,6 +3,7 @@ import { useEffect } from "react";
 //import portfolio2 from "./assets/patio2.jpg";
 //import portfolio3 from "./assets/patio3.jpg";
 //import logo from "./assets/logo.png";
+import logo from './assets/jf_logo.png'; // adjust filename if needed
 
 export default function App() {
   useEffect(() => {
@@ -15,8 +16,13 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#f8f5f1] text-[#2e2b29] font-serif">
       <header className="text-center py-10 border-b border-[#d8d3cb] bg-white">
-        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2">Juniper Fields</h1>
-        <p className="text-lg sm:text-xl italic text-[#5e5a57]">Designing spaces with story, soul, and subtle charm</p>
+      <a href="/">
+        <img
+          src={logo}
+          alt="Juniper Fields logo"
+          className="mx-auto h-20 w-auto mb-4"
+        />
+      </a>
       </header>
 
       <main className="max-w-5xl mx-auto px-6 py-12 space-y-16">
